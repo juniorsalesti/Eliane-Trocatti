@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { CheckCircle2, Award, Heart } from "lucide-react";
 import { WHATSAPP_URL } from "../types";
 
-const elianePortrait = "/src/assets/images/eliane_portrait_1780491331310.png";
+const elianePortrait = "/images/eliane_portrait.png";
 
 export default function About() {
   return (

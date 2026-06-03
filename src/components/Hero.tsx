@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { Sparkles, ArrowRight, Star } from "lucide-react";
 import { WHATSAPP_URL } from "../types";
 
-const heroImg = "/src/assets/images/depilation_studio_bg_1780491825630.png";
+const heroImg = "/images/depilation_studio_bg.png";
 
 export default function Hero() {
   const scrollToReviews = (e: React.MouseEvent<HTMLButtonElement>) => {

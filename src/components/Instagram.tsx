@@ -3,8 +3,8 @@ import { Instagram as InstaIcon, Heart, MessageCircle, ExternalLink } from "luci
 import { INSTAGRAM_LINK, INSTAGRAM_USERNAME } from "../types";
 
 // Custom generated assets
-const productImg = "/src/assets/images/insta_spa_product_1780491348251.png";
-const roomImg = "/src/assets/images/insta_spa_room_1780491364295.png";
+const productImg = "/images/insta_spa_product.png";
+const roomImg = "/images/insta_spa_room.png";
 
 export default function Instagram() {
   const feedPosts = [
