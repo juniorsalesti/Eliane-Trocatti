@@ -1,0 +1,6 @@
+{
+  "name": "Eliane Trocatti - Depilação Feminina",
+  "description": "Website premium para Eliane Trocatti, especialista em depilação feminina e design de sobrancelhas em Campinas - SP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
