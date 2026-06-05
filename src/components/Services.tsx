@@ -5,46 +5,32 @@ import { WHATSAPP_URL } from "../types";
 export default function Services() {
   const serviceList = [
     {
-      id: "depilacao",
+      id: "epilacao",
       icon: <Sparkles className="w-8 h-8 text-[#D9A88E]" />,
-      title: "Depilação Feminina",
+      title: "Epilação Especializada",
       caption: "Resultados suaves e duradouros",
       description: "Técnicas especializadas pensadas para o alívio do desconforto, utilizando ceras de ativos naturais e hidratação calmante pós-procedimento.",
       items: [
-        "Depilação íntima completa (segurança e higiene)",
+        "Epilação íntima completa (segurança e higiene)",
         "Meia perna e perna inteira",
         "Axilas e braços delicadamente tratados",
-        "Buço com cera especial hidratante"
+        "Buço com cera especial de alta aderência"
       ],
       priceRange: "A partir de R$ 30"
     },
     {
       id: "sobrancelhas",
       icon: <Eye className="w-8 h-8 text-[#D9A88E]" />,
-      title: "Design de Sobrancelhas",
+      title: "Designer de Sobrancelhas",
       caption: "Naturalidade e harmonia para seu rosto",
-      description: "Medição geométrica exclusiva para criar o arco perfeito que valorizando os traços singulares de sua expressão.",
+      description: "Medição geométrica exclusiva para criar o arco perfeito que valoriza os traços singulares de sua expressão facial.",
       items: [
         "Design de sobrancelhas personalizado",
         "Aplicação premium de Henna natural",
-        "Limpeza de contorno de fios",
-        "Spa de sobrancelhas com argiloterapia"
+        "Limpeza de contorno de fios integrada",
+        "Spa de sobrancelhas regenerador"
       ],
       priceRange: "A partir de R$ 45"
-    },
-    {
-      id: "skincare",
-      icon: <Droplet className="w-8 h-8 text-[#D9A88E]" />,
-      title: "Cuidados com a Pele",
-      caption: "Atendimento focado no bem-estar e autoestima",
-      description: "Tratamentos corporais e faciais nutritivos projetados para revigorar, acalmar, amaciar e perfumar delicadamente sua pele.",
-      items: [
-        "Argiloterapia purificante e clareadora",
-        "Esfoliação corporal com óleos essenciais",
-        "Nutrição facial calmante profunda",
-        "Hidratação pós-sol regenerativa"
-      ],
-      priceRange: "Sob consulta"
     }
   ];
 
@@ -58,16 +44,16 @@ export default function Services() {
             Nossos Serviços
           </span>
           <h2 className="font-serif text-3xl md:text-5xl text-[#1A1A1A] tracking-wide">
-            Tratamentos Personalizados
+            Especialidades Premium
           </h2>
           <div className="w-20 h-[1.5px] bg-[#D9A88E] mx-auto" />
           <p className="font-sans text-sm md:text-base text-[#7A7A7A] font-light leading-relaxed">
-            Oferecemos uma carta de rituais de depilação e design facial focada em suavidade, segurança sanitária e profundo acolhimento de spa.
+            Oferecemos uma carta de procedimentos focada estritamente em técnicas refinadas, segurança sanitária absoluta e profundo conforto.
           </p>
         </div>
 
-        {/* Services Cards Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-12">
+        {/* Services Cards Grid - Elegantly balanced 2 columns on desktop */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-4xl mx-auto">
           {serviceList.map((service, index) => (
             <motion.div
               key={service.id}
