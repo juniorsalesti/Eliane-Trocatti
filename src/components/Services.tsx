@@ -15,8 +15,7 @@ export default function Services() {
         "Meia perna e perna inteira",
         "Axilas e braços delicadamente tratados",
         "Buço com cera especial de alta aderência"
-      ],
-      priceRange: "A partir de R$ 30"
+      ]
     },
     {
       id: "sobrancelhas",
@@ -29,8 +28,7 @@ export default function Services() {
         "Aplicação premium de Henna natural",
         "Limpeza de contorno de fios integrada",
         "Spa de sobrancelhas regenerador"
-      ],
-      priceRange: "A partir de R$ 45"
+      ]
     }
   ];
 
@@ -64,14 +62,11 @@ export default function Services() {
               className="group relative flex flex-col justify-between bg-[#FAF8F5] hover:bg-white rounded-3xl p-8 md:p-10 border border-[#F1E7DF]/40 hover:border-[#D9A88E]/40 hover:shadow-2xl hover:shadow-[#D9A88E]/5 transition-all duration-300"
             >
               <div>
-                {/* Header Icon & Pricing Tag */}
-                <div className="flex items-start justify-between mb-8">
-                  <div className="p-4 bg-white rounded-2xl border border-[#F1E7DF]/40 group-hover:bg-[#FAF8F5] transition-colors duration-300 shadow-sm">
+                {/* Header Icon */}
+                <div className="mb-8">
+                  <div className="inline-block p-4 bg-white rounded-2xl border border-[#F1E7DF]/40 group-hover:bg-[#FAF8F5] transition-colors duration-300 shadow-sm">
                     {service.icon}
                   </div>
-                  <span className="font-sans text-xs uppercase tracking-wider text-[#D9A88E] font-semibold py-1 px-3 bg-white border border-[#F1E7DF]/50 rounded-full">
-                    {service.priceRange}
-                  </span>
                 </div>
 
                 {/* Service Details */}

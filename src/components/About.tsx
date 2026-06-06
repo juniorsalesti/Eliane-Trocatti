@@ -68,7 +68,7 @@ export default function About() {
 
             <div className="space-y-5 text-[#7A7A7A] font-sans text-sm md:text-base leading-relaxed">
               <p>
-                A <strong>Eliane Trocatti</strong> é profissional certificada e apaixonada por elevar a autoestima em Campinas - SP. Com vasta experiência em depilação feminina e modelagem de sobrancelhas, ela prioriza o bem-estar absoluto de cada cliente que confia em suas mãos.
+                A <strong>Eliane Trocatti</strong> é profissional certificada e apaixonada por elevar a autoestima em Campinas - SP. Com vasta experiência em epilação e cuidados com a pele, ela prioriza o bem-estar absoluto de cada cliente que confia em suas mãos.
               </p>
               <p>
                 Acreditamos que a remoção de pelos não precisa ser um momento doloroso ou impessoal. Por isso, redefinimos o conceito de atendimento ao adotar técnicas exclusivas menos dolorosas e produtos com ativos calmantes, tudo cercado por um acolhimento carinhoso digno de um verdadeiro spa boutique.

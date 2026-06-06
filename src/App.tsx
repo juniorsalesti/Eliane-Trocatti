@@ -25,7 +25,7 @@ export default function App() {
       setIsLoading(false);
     }, 1500);
 
-    const originalTitle = "Eliane Trocatti | Depilação Feminina em Campinas";
+    const originalTitle = "Eliane Trocatti | Especialista em Epilação e Cuidados com a Pele";
     document.title = originalTitle;
 
     const handleVisibilityChange = () => {
@@ -76,8 +76,8 @@ export default function App() {
                 <h1 className="font-serif text-2xl tracking-widest text-[#1A1A1A] uppercase">
                   Eliane Trocatti
                 </h1>
-                <p className="font-sans text-[9px] tracking-[0.4em] text-[#7A7A7A] uppercase mt-1">
-                  Depilação & Estética
+                <p className="font-sans text-[8px] md:text-[9px] tracking-[0.25em] text-[#7A7A7A] uppercase mt-1.5 px-4 leading-relaxed">
+                  Especialista em Epilação & Cuidados com a Pele
                 </p>
               </div>
             </motion.div>

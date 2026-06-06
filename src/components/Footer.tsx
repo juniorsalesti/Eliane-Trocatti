@@ -22,8 +22,8 @@ export default function Footer() {
               <span className="font-serif text-2xl md:text-3xl tracking-wide text-white group-hover:text-[#D9A88E] transition-colors duration-300">
                 Eliane Trocatti
               </span>
-              <span className="text-[10px] md:text-xs tracking-[0.3em] font-sans uppercase text-[#7A7A7A] group-hover:text-white transition-colors duration-300">
-                Depilação & Estética
+              <span className="text-[8px] md:text-[10px] tracking-[0.16em] font-sans uppercase text-[#7A7A7A] group-hover:text-white transition-colors duration-300 mt-0.5">
+                Especialista em Epilação & Cuidados com a Pele
               </span>
             </a>
             <p className="font-sans text-xs text-[#7A7A7A] max-w-sm leading-relaxed">

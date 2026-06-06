@@ -2,8 +2,8 @@ import React from "react";
 import { motion } from "motion/react";
 import { Sparkles, ArrowRight, Star } from "lucide-react";
 import { WHATSAPP_URL } from "../types";
-
-const heroImg = "/images/depilation_studio_bg.png";
+// @ts-expect-error - image asset
+import heroImg from "../assets/images/aesthetic_studio_bg_clean_1780761204091.png";
 
 export default function Hero() {
   const scrollToReviews = (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -29,7 +29,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImg}
-          alt="Clínica Eliane Trocatti Estética e Depilação"
+          alt="Eliane Trocatti - Especialista em Epilação e Cuidados com a Pele"
           className="w-full h-full object-cover scale-102 filter brightness-[0.88]"
           referrerPolicy="no-referrer"
         />
@@ -63,7 +63,7 @@ export default function Hero() {
 
           {/* Subheading */}
           <p className="font-sans text-base md:text-lg text-[#F1E7DF] max-w-lg font-light leading-relaxed">
-            Especialista em depilação feminina e design de sobrancelhas em Campinas. Sinta a incrível experiência de um spa boutique focado no seu bem-estar.
+            Especialista em epilação, design de sobrancelhas e cuidados com a pele em Campinas. Sinta a incrível experiência de um spa boutique focado no seu bem-estar.
           </p>
 
           {/* Action Buttons */}
